@@ -62592,43 +62592,45 @@ var $async$tM=A.p(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:f=n.e
 s=f!=null?3:5
 break
-case 3:s=6
+case 3:s=!(typeof f=="string"&&B.c.p(f,"firebase"))?6:7
+break
+case 6:s=8
 return A.v(A.b8n(A.fq(f,0,null)),$async$tM)
-case 6:l=c.w
-f=n.a.aLk()
-k=f.a
-k=A.ta(f.b,k.b.j0(k.a.og("products")))
-f=k.a
-f=A.ta(k.b,f.b.j0(f.a.og(a)))
-k=f.a
-s=7
-return A.v(A.ta(f.b,k.b.j0(k.a.og(new A.Ny().Tn()))).aL8(l),$async$tM)
-case 7:j=c
-s=8
-return A.v(A.ta(j.b,j.a.gqP()).a.k7(),$async$tM)
-case 8:i=c
-h=i
-s=4
+case 8:l=c.w
+k=n.a.aLk()
+j=k.a
+j=A.ta(k.b,j.b.j0(j.a.og("products")))
+k=j.a
+k=A.ta(j.b,k.b.j0(k.a.og(a)))
+j=k.a
+s=9
+return A.v(A.ta(k.b,j.b.j0(j.a.og(new A.Ny().Tn()))).aL8(l),$async$tM)
+case 9:i=c
+s=10
+return A.v(A.ta(i.b,i.a.gqP()).a.k7(),$async$tM)
+case 10:h=c
+f=h
+case 7:s=4
 break
-case 5:h=null
-case 4:n.e=h
-f=n.f
-s=f!=null?9:10
+case 5:f=null
+case 4:n.e=f
+k=n.f
+s=k!=null?11:12
 break
-case 9:p=12
-m=n.a.J8(f)
-s=15
+case 11:p=14
+m=n.a.J8(k)
+s=17
 return A.v(m.a.bN(0),$async$tM)
-case 15:p=2
-s=14
+case 17:p=2
+s=16
 break
-case 12:p=11
+case 14:p=13
 e=o
-s=14
+s=16
 break
-case 11:s=2
+case 13:s=2
 break
-case 14:case 10:q=A.a9(["name",n.b,"price",n.c,"stock",n.d,"image",h],t.N,t.z)
+case 16:case 12:q=A.a9(["name",n.b,"price",n.c,"stock",n.d,"image",f],t.N,t.z)
 s=1
 break
 case 1:return A.r(q,r)
