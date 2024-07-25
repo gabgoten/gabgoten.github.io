@@ -65382,8 +65382,8 @@ F(a){var s=null,r=t.y,q=A.aD(a,!0,r).x,p=t.Qz,o=A.aD(a,!0,p),n=A.aD(a,!0,r).CW,m
 return A.h5(s,n,A.eG(B.b4,A.a([A.bq(s,s,B.l,s,s,new A.db(s,s,s,s,s,new A.nw(B.fY,B.cI,B.bp,A.a([A.aD(a,!0,r).ch,A.aD(a,!0,r).CW],t.t_),s,s),B.ay),s,s,s,s,s,s,s,s),A.bb_(s,s,A.a([A.baQ(new A.ayk(q,a),t.cr,p),A.du(new A.ayl(),p)],l))],l),B.x,B.aM,s),s,m,s)}}
 A.ayk.prototype={
 $4(a,b,c,d){var s=null,r=!c.c||!1,q=t.p,p=A.a([],q),o=this.a,n=o!=null
-if(n&&o.length!==0)B.b.E(p,A.a([new A.aZ(s,45,s,s)],q))
-else p.push(new A.aZ(s,56,s,s))
+if(n&&o.length!==0)B.b.E(p,A.a([new A.aZ(s,3,s,s)],q))
+else B.b.E(p,A.a([new A.aZ(s,10,s,s)],q))
 p.push(A.a_(b.c,s,s,s,s,A.ar(s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.av,s,s,!0,s,s,s,s,s,s,s,s),s,s))
 if(n&&o.length!==0)p.push(A.a_("Prazo de entrega: "+A.d(o)+" min",s,s,s,s,A.ar(s,s,s,s,s,s,s,s,s,s,s,16,s,s,B.av,s,s,!0,s,s,s,s,s,s,s,s),s,s))
 p=A.b6(p,B.r,B.o,B.n)
